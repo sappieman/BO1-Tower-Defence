@@ -1,0 +1,1049 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.9f1 (ad3870b89536) revision 11352176'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Core' Language: 'en' Physical Memory: 15724 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/basde/Documents/GitHub/Tower-Defense/BO1-Gimma
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53101
+Successfully changed project path to: C:/Users/basde/Documents/GitHub/Tower-Defense/BO1-Gimma
+C:/Users/basde/Documents/GitHub/Tower-Defense/BO1-Gimma
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 72.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.9f1 (ad3870b89536)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/basde/Documents/GitHub/Tower-Defense/BO1-Gimma/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
+    Vendor:   NVIDIA
+    VRAM:     8044 MB
+    Driver:   30.0.15.1274
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005759 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 72.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.542 seconds
+Domain Reload Profiling:
+	ReloadAssembly (543ms)
+		BeginReloadAssembly (65ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (388ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (80ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (243ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005233 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\basde\Documents\GitHub\Tower-Defense\BO1-Gimma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\basde\Documents\GitHub\Tower-Defense\BO1-Gimma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.861 seconds
+Domain Reload Profiling:
+	ReloadAssembly (862ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (672ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (205ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (321ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (205ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3406 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (113.2 KB). Loaded Objects now: 3873.
+Memory consumption went from 125.8 MB to 125.7 MB.
+Total: 3.091000 ms (FindLiveObjects: 0.238300 ms CreateObjectMapping: 0.241200 ms MarkObjects: 2.491500 ms  DeleteObjects: 0.119100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 11870.940141 seconds.
+  path: Assets/Enemy.prefab
+  artifactKey: Guid(9ca6bea3b391d1c479aee8ae91605452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy.prefab using Guid(9ca6bea3b391d1c479aee8ae91605452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca897e5ca6fcd33b899deda3a8521fa8') in 0.109454 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005463 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\basde\Documents\GitHub\Tower-Defense\BO1-Gimma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\basde\Documents\GitHub\Tower-Defense\BO1-Gimma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.857 seconds
+Domain Reload Profiling:
+	ReloadAssembly (858ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (653ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (210ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (296ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3386 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (81.3 KB). Loaded Objects now: 3884.
+Memory consumption went from 128.6 MB to 128.6 MB.
+Total: 3.675900 ms (FindLiveObjects: 0.309800 ms CreateObjectMapping: 0.242100 ms MarkObjects: 3.011400 ms  DeleteObjects: 0.111800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 66.294033 seconds.
+  path: Assets/Enemy.prefab
+  artifactKey: Guid(9ca6bea3b391d1c479aee8ae91605452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy.prefab using Guid(9ca6bea3b391d1c479aee8ae91605452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896bb1239200b55eb118156e80fb6a37') in 0.069584 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004645 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\basde\Documents\GitHub\Tower-Defense\BO1-Gimma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\basde\Documents\GitHub\Tower-Defense\BO1-Gimma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.834 seconds
+Domain Reload Profiling:
+	ReloadAssembly (834ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (628ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (197ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3386 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (81.4 KB). Loaded Objects now: 3887.
+Memory consumption went from 128.7 MB to 128.6 MB.
+Total: 3.421700 ms (FindLiveObjects: 0.305400 ms CreateObjectMapping: 0.179100 ms MarkObjects: 2.823200 ms  DeleteObjects: 0.112900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005405 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\basde\Documents\GitHub\Tower-Defense\BO1-Gimma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\basde\Documents\GitHub\Tower-Defense\BO1-Gimma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.850 seconds
+Domain Reload Profiling:
+	ReloadAssembly (851ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (649ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (207ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (295ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (188ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3386 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (81.3 KB). Loaded Objects now: 3890.
+Memory consumption went from 128.7 MB to 128.6 MB.
+Total: 3.376000 ms (FindLiveObjects: 0.309100 ms CreateObjectMapping: 0.203800 ms MarkObjects: 2.749600 ms  DeleteObjects: 0.112600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005318 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\basde\Documents\GitHub\Tower-Defense\BO1-Gimma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\basde\Documents\GitHub\Tower-Defense\BO1-Gimma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.851 seconds
+Domain Reload Profiling:
+	ReloadAssembly (851ms)
+		BeginReloadAssembly (118ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (649ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (302ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3386 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (81.3 KB). Loaded Objects now: 3893.
+Memory consumption went from 128.7 MB to 128.6 MB.
+Total: 3.761600 ms (FindLiveObjects: 0.332200 ms CreateObjectMapping: 0.228400 ms MarkObjects: 3.053300 ms  DeleteObjects: 0.146200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 72.146264 seconds.
+  path: Assets/Enemy.prefab
+  artifactKey: Guid(9ca6bea3b391d1c479aee8ae91605452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy.prefab using Guid(9ca6bea3b391d1c479aee8ae91605452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd197fa44cf30703cbb1af2dea343ed0e') in 0.096474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.524935 seconds.
+  path: Assets/Enemy.prefab
+  artifactKey: Guid(9ca6bea3b391d1c479aee8ae91605452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy.prefab using Guid(9ca6bea3b391d1c479aee8ae91605452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4676c763efc2e79edcca423158129494') in 0.008962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.866771 seconds.
+  path: Assets/Enemy.prefab
+  artifactKey: Guid(9ca6bea3b391d1c479aee8ae91605452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy.prefab using Guid(9ca6bea3b391d1c479aee8ae91605452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d38680399443da82a26a6953cb28c6') in 0.008902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.803155 seconds.
+  path: Assets/Enemy.prefab
+  artifactKey: Guid(9ca6bea3b391d1c479aee8ae91605452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy.prefab using Guid(9ca6bea3b391d1c479aee8ae91605452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d2db74be78bcfd9254fb8e5c8ebe500') in 0.008336 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004711 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\basde\Documents\GitHub\Tower-Defense\BO1-Gimma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\basde\Documents\GitHub\Tower-Defense\BO1-Gimma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.855 seconds
+Domain Reload Profiling:
+	ReloadAssembly (855ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (655ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (202ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (306ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3386 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (81.2 KB). Loaded Objects now: 3896.
+Memory consumption went from 128.7 MB to 128.6 MB.
+Total: 3.109900 ms (FindLiveObjects: 0.296400 ms CreateObjectMapping: 0.162000 ms MarkObjects: 2.539000 ms  DeleteObjects: 0.111700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16.650036 seconds.
+  path: Assets/Enemy.prefab
+  artifactKey: Guid(9ca6bea3b391d1c479aee8ae91605452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy.prefab using Guid(9ca6bea3b391d1c479aee8ae91605452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb26a91a8e32f21470942d0d0e636dc') in 0.086964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.698947 seconds.
+  path: Assets/Enemy.prefab
+  artifactKey: Guid(9ca6bea3b391d1c479aee8ae91605452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy.prefab using Guid(9ca6bea3b391d1c479aee8ae91605452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22bb6ea067567bb89d49644496d68a3e') in 0.010183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.731584 seconds.
+  path: Assets/Enemy.prefab
+  artifactKey: Guid(9ca6bea3b391d1c479aee8ae91605452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy.prefab using Guid(9ca6bea3b391d1c479aee8ae91605452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4016c467afe7c32b37d4bf0ab5b4a08') in 0.008815 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005487 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\basde\Documents\GitHub\Tower-Defense\BO1-Gimma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\basde\Documents\GitHub\Tower-Defense\BO1-Gimma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.836 seconds
+Domain Reload Profiling:
+	ReloadAssembly (837ms)
+		BeginReloadAssembly (116ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (641ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (198ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (300ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (195ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3386 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (81.3 KB). Loaded Objects now: 3899.
+Memory consumption went from 128.7 MB to 128.6 MB.
+Total: 3.343100 ms (FindLiveObjects: 0.257300 ms CreateObjectMapping: 0.176000 ms MarkObjects: 2.763000 ms  DeleteObjects: 0.145900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20.894547 seconds.
+  path: Assets/Enemy.prefab
+  artifactKey: Guid(9ca6bea3b391d1c479aee8ae91605452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy.prefab using Guid(9ca6bea3b391d1c479aee8ae91605452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd364bdef10a2b6a58ef480ffd8f72ea2') in 0.073821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.729789 seconds.
+  path: Assets/Enemy.prefab
+  artifactKey: Guid(9ca6bea3b391d1c479aee8ae91605452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy.prefab using Guid(9ca6bea3b391d1c479aee8ae91605452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b2d479bf24cec43703be3dc28bdae3') in 0.008312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.806852 seconds.
+  path: Assets/Enemy.prefab
+  artifactKey: Guid(9ca6bea3b391d1c479aee8ae91605452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy.prefab using Guid(9ca6bea3b391d1c479aee8ae91605452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f562e983f1adda9b0dec34cc5a388a19') in 0.008286 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004636 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\basde\Documents\GitHub\Tower-Defense\BO1-Gimma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\basde\Documents\GitHub\Tower-Defense\BO1-Gimma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.860 seconds
+Domain Reload Profiling:
+	ReloadAssembly (861ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (662ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (204ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (312ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (202ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3386 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (81.2 KB). Loaded Objects now: 3902.
+Memory consumption went from 128.7 MB to 128.6 MB.
+Total: 3.294300 ms (FindLiveObjects: 0.267500 ms CreateObjectMapping: 0.190400 ms MarkObjects: 2.702500 ms  DeleteObjects: 0.132400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 22.983499 seconds.
+  path: Assets/Enemy.prefab
+  artifactKey: Guid(9ca6bea3b391d1c479aee8ae91605452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy.prefab using Guid(9ca6bea3b391d1c479aee8ae91605452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d031df200a1913740cf312a15019583') in 0.067143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.715826 seconds.
+  path: Assets/Enemy.prefab
+  artifactKey: Guid(9ca6bea3b391d1c479aee8ae91605452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy.prefab using Guid(9ca6bea3b391d1c479aee8ae91605452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ced736284cc933b8daa4bf432bff6d3') in 0.008327 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004761 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\basde\Documents\GitHub\Tower-Defense\BO1-Gimma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\basde\Documents\GitHub\Tower-Defense\BO1-Gimma\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.831 seconds
+Domain Reload Profiling:
+	ReloadAssembly (832ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (627ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (295ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3386 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (81.4 KB). Loaded Objects now: 3905.
+Memory consumption went from 128.7 MB to 128.6 MB.
+Total: 3.225600 ms (FindLiveObjects: 0.282800 ms CreateObjectMapping: 0.276800 ms MarkObjects: 2.559500 ms  DeleteObjects: 0.105700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 344.028395 seconds.
+  path: Assets/assets/WhiteSquare.jpg
+  artifactKey: Guid(a1513210f660e154b87d9845ff6df8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assets/WhiteSquare.jpg using Guid(a1513210f660e154b87d9845ff6df8be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3debd8b3aa1bc7f975b4fcbf8010db2') in 0.049292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.958727 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Towers/Barrack/barrack_level_1 (1).png
+  artifactKey: Guid(d57dcbd3f9564554da1784d3bd7b8205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Towers/Barrack/barrack_level_1 (1).png using Guid(d57dcbd3f9564554da1784d3bd7b8205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89cbbe7cbbe8349e5dc463ff4ecc62ee') in 0.042926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Towers/Barrack/barrack_level_2 (1).png
+  artifactKey: Guid(42f2b2adf18bafc4084d7e88bfd6dbe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Towers/Barrack/barrack_level_2 (1).png using Guid(42f2b2adf18bafc4084d7e88bfd6dbe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077cdcc2a22c11eb1b185206a23a94fb') in 0.021567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.644272 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Towers/Barrack/barrack_level_2 (2).png
+  artifactKey: Guid(941fdfe1007abeb4faf441a1d524a9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Towers/Barrack/barrack_level_2 (2).png using Guid(941fdfe1007abeb4faf441a1d524a9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e347d88682ba5c2969cc5e92783d879') in 0.027696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.267728 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Towers/Barrack/barrack_level_3 (2).png
+  artifactKey: Guid(450b80e2cd189b044bbfdd22c558bb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Towers/Barrack/barrack_level_3 (2).png using Guid(450b80e2cd189b044bbfdd22c558bb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2b288091d13c0c033814667796c1de') in 0.024708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.303244 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Landscape tiles/buildingPlaceGrass.png
+  artifactKey: Guid(b5a6de5c0657c824b8caa1b7b811d6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Landscape tiles/buildingPlaceGrass.png using Guid(b5a6de5c0657c824b8caa1b7b811d6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9377b350c54c5372d4290d82323719bf') in 0.024293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.315037 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Landscape tiles/buildingPlaceSand.png
+  artifactKey: Guid(39f80beeca022434dadf51ca1d222049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Landscape tiles/buildingPlaceSand.png using Guid(39f80beeca022434dadf51ca1d222049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0ee04d8c8d8f323aa2de975f8f914d8') in 0.030272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033878 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Desert biome/cactuses/cactus(1).png
+  artifactKey: Guid(47b6565a5ebfa79468918b747e5ed7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Desert biome/cactuses/cactus(1).png using Guid(47b6565a5ebfa79468918b747e5ed7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '749c7a3bcaa340ecfce53279a0ea9d65') in 0.018664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.025834 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Desert biome/cactuses/cactus(3).png
+  artifactKey: Guid(8e11e7966550c714db29f1f89e5f0d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Desert biome/cactuses/cactus(3).png using Guid(8e11e7966550c714db29f1f89e5f0d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '827531fac6494fe7b3807d25d5ce4825') in 0.019316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.115055 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Desert biome/cactuses/cactus(5).png
+  artifactKey: Guid(04c63bb252da5e44fb5bac65de09801c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Desert biome/cactuses/cactus(5).png using Guid(04c63bb252da5e44fb5bac65de09801c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce03ec0e712a2111853894d45980132') in 0.021951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.374879 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/crystal(2).png
+  artifactKey: Guid(fa557cc1aab73db40aa5037e9c0cb506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/crystal(2).png using Guid(fa557cc1aab73db40aa5037e9c0cb506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f29faded21f1ff13e80948193bfe34') in 0.029761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034363 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Landscape tiles/grass.png
+  artifactKey: Guid(eacd4446c407b60449a24ca05c29e0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Landscape tiles/grass.png using Guid(eacd4446c407b60449a24ca05c29e0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436046fce4643226f60493ad0dc7b932') in 0.019363 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.086855 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Spring biome/grass decoration/grass_decoration(2).png
+  artifactKey: Guid(a6f2e6c827e6e384bba45e8611833773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Spring biome/grass decoration/grass_decoration(2).png using Guid(a6f2e6c827e6e384bba45e8611833773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '052f7de3d70e89417fc12e84d553778f') in 0.022350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035071 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Spring biome/grass decoration/grass_decoration(4).png
+  artifactKey: Guid(cbba4261104d101499be9f8e11de018d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Spring biome/grass decoration/grass_decoration(4).png using Guid(cbba4261104d101499be9f8e11de018d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '067a74278428c0223373b8fd0bb9523e') in 0.017715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.394560 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Spring biome/grass decoration/grass_decoration(6).png
+  artifactKey: Guid(21a78050cf7604a42a1c36f10a13a6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Spring biome/grass decoration/grass_decoration(6).png using Guid(21a78050cf7604a42a1c36f10a13a6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d78d21827569398a91c3eb6f17f15a3') in 0.022665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.016756 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Spring biome/grass decoration/grass_decoration(8).png
+  artifactKey: Guid(3146ba189cf72774dbacd04c54957ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Spring biome/grass decoration/grass_decoration(8).png using Guid(3146ba189cf72774dbacd04c54957ab8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6745f82fea37141c9d8f444c90b3dad') in 0.018430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.018781 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Towers/Barrack/knight_level_1.png
+  artifactKey: Guid(48205fe0d80a9fb48984ac11750b6a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Towers/Barrack/knight_level_1.png using Guid(48205fe0d80a9fb48984ac11750b6a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfc26605538e7c2565ba47b9faa3827') in 0.017804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014588 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Towers/Barrack/knight_level_3.png
+  artifactKey: Guid(73a1d7491fe2d2341b29c8e4f3ad1818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Towers/Barrack/knight_level_3.png using Guid(73a1d7491fe2d2341b29c8e4f3ad1818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc011b7252a8b22668b9fb2997d38865') in 0.019452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.068565 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Desert biome/road_desert(2).png
+  artifactKey: Guid(4d4b2fae58625334db37eb6c8ba40aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Desert biome/road_desert(2).png using Guid(4d4b2fae58625334db37eb6c8ba40aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e2c1dbad43429c02afca9aab9529f71') in 0.024010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.504607 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Desert biome/road_desert(4).png
+  artifactKey: Guid(3e47169f918d1974894ac6a6fbbce64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Desert biome/road_desert(4).png using Guid(3e47169f918d1974894ac6a6fbbce64b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa1e4b565438bf8295e1c5761fe932e') in 0.030384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030565 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Desert biome/road_desert(6).png
+  artifactKey: Guid(3fdcb8f6fbe9c7a45ad2538e6702a575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Desert biome/road_desert(6).png using Guid(3fdcb8f6fbe9c7a45ad2538e6702a575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e9a8490c447aaac2abb74fc6f1a40c') in 0.024042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021824 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Desert biome/road_desert(8).png
+  artifactKey: Guid(742b91f2a81a80c48b0e0a356830feb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Desert biome/road_desert(8).png using Guid(742b91f2a81a80c48b0e0a356830feb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a69a10e7ff37e1081f6762101738d521') in 0.021420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029258 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Desert biome/road_desert(10).png
+  artifactKey: Guid(9135521be01f01342bc6ea70bedd9826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Desert biome/road_desert(10).png using Guid(9135521be01f01342bc6ea70bedd9826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d80ab0180ae76f63d67b65330b0a07') in 0.021745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017073 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Spring biome/road_spring(1).png
+  artifactKey: Guid(6102f52ad94a3dc42bdbf392fd7b16e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Spring biome/road_spring(1).png using Guid(6102f52ad94a3dc42bdbf392fd7b16e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc55580bcb5d37c053f545593cd18705') in 0.021404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Spring biome/road_spring(3).png
+  artifactKey: Guid(fcfc33eca47adc94da327dc1d8a301e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Spring biome/road_spring(3).png using Guid(fcfc33eca47adc94da327dc1d8a301e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a484e406987ddd5af1203c330b0597') in 0.025702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.377329 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Spring biome/road_spring(5).png
+  artifactKey: Guid(48ba3c132d70e2e41b00cb1557d701e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Spring biome/road_spring(5).png using Guid(48ba3c132d70e2e41b00cb1557d701e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b78ca792a9421d1b754a62e8b09f3e') in 0.024935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Spring biome/road_spring(8).png
+  artifactKey: Guid(535b45c1659b53c4d84c54088636a683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Spring biome/road_spring(8).png using Guid(535b45c1659b53c4d84c54088636a683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270d1bfa33434828d8c9133da3096d8c') in 0.029250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015725 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Spring biome/road_spring(9).png
+  artifactKey: Guid(52c05d95c008e084a82bdbc6cafb6eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Spring biome/road_spring(9).png using Guid(52c05d95c008e084a82bdbc6cafb6eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9032940fed2aed1aa76990f042e3f38') in 0.021509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Spring biome/road_spring(12).png
+  artifactKey: Guid(16d1f06c37b0e6e4abfaffebfa2d5fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Spring biome/road_spring(12).png using Guid(16d1f06c37b0e6e4abfaffebfa2d5fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f14e8916c965dbc13a62580f7bd5de6') in 0.028102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Winter biome/road_winter(2).png
+  artifactKey: Guid(09d7db8f7c2e52c48b0419ece80c4703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Winter biome/road_winter(2).png using Guid(09d7db8f7c2e52c48b0419ece80c4703) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f636cbd7c128683ff5ad4e375870aed6') in 0.025315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.162083 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Winter biome/road_winter(4).png
+  artifactKey: Guid(a0063b84c33397e4ca9e8d4d715366ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Winter biome/road_winter(4).png using Guid(a0063b84c33397e4ca9e8d4d715366ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79df73fd73836d3bb74f4f7027d0e41') in 0.020696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Winter biome/road_winter(7).png
+  artifactKey: Guid(75764926cdf750f4184b5227959c72cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Winter biome/road_winter(7).png using Guid(75764926cdf750f4184b5227959c72cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e5680efb51fb300033dffc49764c061') in 0.026791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003811 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Winter biome/road_winter(8).png
+  artifactKey: Guid(d56e52c42058ea44c8568ca6ecd9931a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Winter biome/road_winter(8).png using Guid(d56e52c42058ea44c8568ca6ecd9931a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8818890d0671b5fc892661757f7b72') in 0.029125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Desert biome/desert decoration/sand_decoration(1).png
+  artifactKey: Guid(61ac4c8b2615fd0498fe111f4b1c02d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Desert biome/desert decoration/sand_decoration(1).png using Guid(61ac4c8b2615fd0498fe111f4b1c02d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e220574de4425420ac425975d6bc913') in 0.027282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Winter biome/road_winter(11).png
+  artifactKey: Guid(4cde38ab21a5ee243a82b8a0add8577d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Road tiles/Winter biome/road_winter(11).png using Guid(4cde38ab21a5ee243a82b8a0add8577d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3795d7f110fa41ee7540f5e2e1391e') in 0.030853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Desert biome/desert decoration/sand_decoration(2).png
+  artifactKey: Guid(9a356022e2fe47e46981755223b6777d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Desert biome/desert decoration/sand_decoration(2).png using Guid(9a356022e2fe47e46981755223b6777d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2afe2647925e279c7926cb46fcfed2a7') in 0.020455 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.105778 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Desert biome/desert decoration/sand_decoration(4).png
+  artifactKey: Guid(14490e9dd06d20041a231053c1ea3384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Desert biome/desert decoration/sand_decoration(4).png using Guid(14490e9dd06d20041a231053c1ea3384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846338a668aa1efbb8281ded3974bc7a') in 0.018832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Desert biome/desert decoration/sand_decoration(9).png
+  artifactKey: Guid(cffe60a9c52d4a1428fdfa5901d230ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Desert biome/desert decoration/sand_decoration(9).png using Guid(cffe60a9c52d4a1428fdfa5901d230ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e584ff2bb2d9be772ac47c7123fc9ead') in 0.028997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Landscape tiles/snow.png
+  artifactKey: Guid(341c1272d93988142a2a41b2e039cff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Landscape tiles/snow.png using Guid(341c1272d93988142a2a41b2e039cff6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3add2542c56e163e92e5780ec0ff3941') in 0.037532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Winter biome/snow decoration/snow_decoration(3).png
+  artifactKey: Guid(7fc4d69ce56a9fd48a27c6203ad6406d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Winter biome/snow decoration/snow_decoration(3).png using Guid(7fc4d69ce56a9fd48a27c6203ad6406d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c38351e0c9ac563ae5afd05e1ea384c') in 0.027371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Winter biome/snow decoration/snow_decoration(4).png
+  artifactKey: Guid(648071d341d4a0a44a813a503d0094a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Winter biome/snow decoration/snow_decoration(4).png using Guid(648071d341d4a0a44a813a503d0094a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1022f00554d981a330f50e50c00b76e5') in 0.020212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Winter biome/snow decoration/snow_decoration(1).png
+  artifactKey: Guid(063cde98401d38c41ba36593862f4d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Winter biome/snow decoration/snow_decoration(1).png using Guid(063cde98401d38c41ba36593862f4d79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d1aae500e45840e79b4c13246ab844') in 0.021999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.080043 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Winter biome/snow decoration/snow_decoration(5).png
+  artifactKey: Guid(6dc529d077090ef4baf031f73fa0cc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Winter biome/snow decoration/snow_decoration(5).png using Guid(6dc529d077090ef4baf031f73fa0cc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce754c324d221d325fa418be30449904') in 0.020584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Winter biome/snow decoration/snow_decoration(8).png
+  artifactKey: Guid(0ba77c36428c1ad4aa9f5c3ca0c9bc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Winter biome/snow decoration/snow_decoration(8).png using Guid(0ba77c36428c1ad4aa9f5c3ca0c9bc5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a068cc85ef58d47b2e57afa85038836a') in 0.021156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Winter biome/snow decoration/snow_decoration(9).png
+  artifactKey: Guid(5167b8981af0091429fdb3b76d247214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Winter biome/snow decoration/snow_decoration(9).png using Guid(5167b8981af0091429fdb3b76d247214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6959ecfea2c819e059d85899592da8fd') in 0.021729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Spring biome/stones/stone(2).png
+  artifactKey: Guid(c9604999caf1b624787711e37c1f9477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Spring biome/stones/stone(2).png using Guid(c9604999caf1b624787711e37c1f9477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48a83d743b6d5703cb20330d40776a33') in 0.022811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Spring biome/stones/stone_ground(2).png
+  artifactKey: Guid(ea98c696b5f31dd4abae777b98cac369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Spring biome/stones/stone_ground(2).png using Guid(ea98c696b5f31dd4abae777b98cac369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab923bd666392e4bdca388e45bf7ed5f') in 0.021856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Towers/Wizard/stick.png
+  artifactKey: Guid(4eb36f41065efc141838fb7086eaa58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Towers/Wizard/stick.png using Guid(4eb36f41065efc141838fb7086eaa58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3009118ada845d6b7f7d57511899d760') in 0.022293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Spring biome/stones/stone_ground(3).png
+  artifactKey: Guid(8e9b3acd3360e924087bfe0d4b2b14ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Spring biome/stones/stone_ground(3).png using Guid(8e9b3acd3360e924087bfe0d4b2b14ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24c435f7f52c4b49f326f1af439f889') in 0.020957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.125920 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Desert biome/stones/stone_sand(1).png
+  artifactKey: Guid(af695afdb53f7844185f6cab953a64c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Desert biome/stones/stone_sand(1).png using Guid(af695afdb53f7844185f6cab953a64c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a1d21c5d52f9835f68fe37863fa629') in 0.019075 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Towers/Barrack/sword.png
+  artifactKey: Guid(d77afeb4830de4743b9f230f8cbe687f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Towers/Barrack/sword.png using Guid(d77afeb4830de4743b9f230f8cbe687f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9278edfc7afdc02025cca67441586ba') in 0.021677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/UFO/UFO(1).png
+  artifactKey: Guid(f2728ae8e64279c448dd84d9d4d74a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/UFO/UFO(1).png using Guid(f2728ae8e64279c448dd84d9d4d74a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51331fe700b8359655818fd5647562eb') in 0.022406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Winter biome/trees/tree_winter(1).png
+  artifactKey: Guid(b63ab69d690879a4c80794a7952b8f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Winter biome/trees/tree_winter(1).png using Guid(b63ab69d690879a4c80794a7952b8f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1a02e0fb088ec02213bbbcda4076dd') in 0.022281 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Desert biome/stones/stone_sand(3).png
+  artifactKey: Guid(4e3b3ce7bafca2c40a4960a455182fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Enviroument tiles/Desert biome/stones/stone_sand(3).png using Guid(4e3b3ce7bafca2c40a4960a455182fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5f7a733ea26ea1c8f37bcf3de4d094') in 0.022523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.109509 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/UFO/UFO(3).png
+  artifactKey: Guid(50f44fe7e0660494da627ccc90366b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/UFO/UFO(3).png using Guid(50f44fe7e0660494da627ccc90366b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf9a71029f0f46ef838ba8a7cbf1230') in 0.020788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/UFO/UFO(7).png
+  artifactKey: Guid(1ab99f8c7ab087c45a9cefdfd96ce42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/UFO/UFO(7).png using Guid(1ab99f8c7ab087c45a9cefdfd96ce42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97fe06eb11605ba4c9c24e1a5ad2908c') in 0.023043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Towers/Wizard/wizard_level_2.png
+  artifactKey: Guid(847b95d1d89897d43b748c2e92b48efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Towers/Wizard/wizard_level_2.png using Guid(847b95d1d89897d43b748c2e92b48efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c39fe6749247773e4ecf595caaa086f') in 0.024495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Towers/Wizard/wizard_level_1.png
+  artifactKey: Guid(0528d4dc9102ed149af7e44771f55305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Towers/Wizard/wizard_level_1.png using Guid(0528d4dc9102ed149af7e44771f55305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37bf2b47d9e8c8cf13b2d351627e1328') in 0.024138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.115349 seconds.
+  path: Assets/Update/Isometric Tower Defense Pack/Sprites/Towers/Wizard/wizard_level_3.png
+  artifactKey: Guid(f6165d8f043547b4f89e7568f50dd048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Update/Isometric Tower Defense Pack/Sprites/Towers/Wizard/wizard_level_3.png using Guid(f6165d8f043547b4f89e7568f50dd048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936a984d3e05f9c75c49a4706143d480') in 0.022111 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
